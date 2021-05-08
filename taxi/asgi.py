@@ -15,4 +15,4 @@ from channels.routing import get_default_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'taxi.settings')
 django.setup()
 
-application = get_defaualt_application()
+application = get_default_application()
